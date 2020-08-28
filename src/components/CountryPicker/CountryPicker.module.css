@@ -1,0 +1,21 @@
+.formControl {
+    width:30%;
+    align-self: center;
+    margin: 40px auto!important;
+}
+
+.optionStyle{
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.optionStyle:hover{
+    color:rgb(253, 68, 68);
+}
+
+
+@media (max-width:700px){
+    .formControl{
+        width:60%;
+    }
+}

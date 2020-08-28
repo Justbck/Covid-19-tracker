@@ -1,0 +1,27 @@
+body {
+    background-color: #ffffff;
+}
+
+.container {
+    display:flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image {
+    align-self: center;
+    justify-content: center;
+    width: 40%;
+    margin-top:50px;
+}
+
+@media(max-width:770px){
+    .container{
+        margin: 0 10%;
+    }
+
+    .image{
+        width:100%;
+    }
+}
